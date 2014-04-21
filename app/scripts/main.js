@@ -48,3 +48,16 @@ $(".image-widening").click(function(){
 	event.preventDefault();
 $(".image-widening").animate({width:"200px"});
 		});
+
+$(".fader-this-out").click(function(){
+$(".fader-this-out").fadeOut()
+    	});
+// $(".fader-this-out").click(function(){
+// $(".fader-this-out").fadeToggle();
+// 		});
+
+$("img").click(function() {
+$("img").fadeOut().show(1000);
+		});
+
+
