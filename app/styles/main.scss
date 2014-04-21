@@ -101,11 +101,21 @@ li.active {
     color: white;
     text-decoration: none;
   }
+
+span{
+    color:red;
+}
   
 li.next {
     font-size: 20px;
 }
+.hide {
+    display:none;
+}
 
-.background {
-    background-color: tomato;
- }
+.show {
+    display:block;
+}
+// .background {
+//     background-color: tomato;
+//  }

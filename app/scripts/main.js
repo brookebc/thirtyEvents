@@ -1,4 +1,4 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
   	function showHeight (element, height) {
   		event.preventDefault();
@@ -8,8 +8,6 @@ $(document).ready(function() {
 		$( ".heightbtn" ).click(function() {
       showHeight( "paragraph", $( "p" ).height() );
     });
-
-	});
 
 $( "select" )
    .change(function () {
@@ -34,3 +32,19 @@ $( "li" )
           .stop( true, true )
           .slideToggle();
     });
+
+$(".hider").click(function(){
+$(".hider").hide();
+  		});
+
+$(".changing-colors").bind('mouseover', function () { 
+$(".changing-colors").css("background-color","tomato"); 
+		});
+$(".changing-colors").bind('mouseout', function () { 
+$(".changing-colors").css("background-color","none"); 
+		});
+
+$(".image-widening").click(function(){
+	event.preventDefault();
+$(".image-widening").animate({width:"200px"});
+		});
